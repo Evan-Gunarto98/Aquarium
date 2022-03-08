@@ -55,12 +55,7 @@ function animateA(myclass){
             tempA = newqa[1];
             afish.style.transform='scaleX(-1)';
          }
-         var time = timecycle();
-         if(time>20){
-            afish.style.transform='scale(1.5)';
-         }else if(time>40){
-             afish.style.transform='scale(2)';
-         }
+       
           
          
       animateA(myclass);        
@@ -96,19 +91,9 @@ function animateC(myclass){
         if(newqc[1]<tempC){
              tempC = newqc[1];
             cfish.style.transform='scaleX(-1)';
-            if(time>20){
-                cfish.style.transform='scale(-1.5)';
-            }else if(time>40){
-                    cfish.style.transform='scale(-2)';
-            }
          }else{
              tempC = newqc[1];
              cfish.style.transform='scaleX(1)';
-             if(time>20){
-                cfish.style.transform='scale(-1.5)';
-            }else if(time>40){
-                cfish.style.transform='scale(-2)';
-            }
          }
        
        
